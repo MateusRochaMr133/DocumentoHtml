@@ -1,0 +1,105 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: sans-serif;
+
+}
+
+header{
+
+    /*widht: 100%;*/
+
+    background-color: #132f5c;
+
+    height: 100px;
+
+    color: #fff;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+ 
+
+ul li a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+ 
+
+.menu{
+
+    display: flex;
+
+    max-width: 992px;
+
+    min-width: 320px;
+
+    margin: 0 auto;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    height: 100%;
+
+    /*flex-direction: row; direção do flex
+
+    flex-wrap: nowrap; responsividade da tela
+
+    viewport é a área útil do navegador*/
+
+}
+
+.list-item{
+
+    display: flex;
+
+    width: 260px;
+
+    justify-content: space-between;
+
+}
+
+.apresentation{
+
+    display: flex;
+
+    /*vh= unidade de medidad equivalente a altura do viewport, ou seja se o viewport for 1000px, 60vh será representado por 60% dos 1000px ou seja 600px*/
+
+    height: 60vh;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.txt-apresentation h2{
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+
+.btn{
+    width: 220px;
+    height: 50px;
+    background-color: #122A57;
+    color: #fff;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+}
